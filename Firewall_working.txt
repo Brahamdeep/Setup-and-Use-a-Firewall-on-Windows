@@ -1,0 +1,12 @@
+🔒 How Firewall Filters Traffic
+
+A firewall enforces network security policies by inspecting and controlling network packets based on predefined rules. Each packet is evaluated against these rules, which typically include conditions such as:
+
+- Protocol type: The firewall inspects the packet’s protocol header (e.g., TCP, UDP, ICMP) to apply protocol-specific rules.
+- Port numbers: Filters inbound or outbound traffic based on source or destination ports to control access to specific services (e.g., blocking TCP port 23 to prevent Telnet).
+- IP addresses and ranges: Applies rules to allow or deny traffic from specific IP addresses or subnets, enabling network segmentation and access control.
+- Stateful inspection:Modern firewalls track the state of active connections and allow return traffic only if it is part of an established session, preventing unsolicited packets.
+- Rule precedence and order: Rules are processed in a defined order; the first matching rule determines the fate of the packet (allow or block).
+-Application layer filtering (in advanced firewalls): Inspects the payload of packets to identify and filter traffic based on application-level data or behavior.
+
+By combining these criteria, the firewall effectively filters unwanted or malicious traffic while permitting legitimate communications, thereby enforcing network security and minimizing attack surfaces.
