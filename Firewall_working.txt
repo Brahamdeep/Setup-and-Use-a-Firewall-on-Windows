@@ -1,4 +1,4 @@
-🔒 How Firewall Filters Traffic
+How Firewall Filters Traffic
 
 A firewall enforces network security policies by inspecting and controlling network packets based on predefined rules. Each packet is evaluated against these rules, which typically include conditions such as:
 
